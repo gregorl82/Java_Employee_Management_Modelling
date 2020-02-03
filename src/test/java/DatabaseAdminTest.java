@@ -4,7 +4,7 @@ import techStaff.DatabaseAdmin;
 
 import static org.junit.Assert.assertEquals;
 
-public class DeveloperTest {
+public class DatabaseAdminTest {
 
     private DatabaseAdmin databaseAdmin;
 
