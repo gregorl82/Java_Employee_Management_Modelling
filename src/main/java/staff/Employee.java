@@ -25,7 +25,9 @@ public abstract class Employee {
     }
 
     public void raiseSalary(double percentage){
-        salary *= (1 + (percentage/100));
+        if (percentage > 0){
+            salary *= (1 + (percentage/100));
+        }
     }
 
     public double payBonus(){
